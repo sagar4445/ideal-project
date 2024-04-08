@@ -1,0 +1,115 @@
+body {
+   background-color: #F3F3F3;
+   background-image: url('/image/dog.svg'), url('/image/blue.png'), url('/image/orange.svg'), url('/image/footer.svg');
+   background-repeat: no-repeat, no-repeat, no-repeat, no-repeat;
+   background-position: 5% 65%, 0 0,0 40%,0 100%;
+   background-size: 300px 150px, 100% 62%, 100% 90%, 100% auto;
+}
+
+header {
+   height: auto;
+}
+
+.menu_div>ul>li>a {
+   padding: 30px 20px 15px 20px !important;
+   font-family: "Nunito", sans-serif;
+   font-optical-sizing: auto;
+   font-weight: 400;
+   font-style: normal;
+}
+
+.menu_div>ul>li>a:hover {
+   color: #FFB900 !important;
+}
+
+.active {
+   background-color: #573A70;
+   border-bottom-left-radius: 10px;
+   border-bottom-right-radius: 10px;
+   color: #FFB900 !important;
+}
+
+.sm-circle {
+   width: 30px;
+   height: 30px;
+   border-radius: 100%;
+   background: #744C97;
+}
+
+.dropdown-toggle::after {
+   display: none;
+}
+
+@media screen and (max-width: 992px) {
+   .sm-header-ul>li>a {
+      border-radius: 0 !important;
+      background: #573A70;
+      border-bottom: 1px solid #744c97;
+   }
+}
+
+/* ---------main---------- */
+main {
+   min-height: 860px;
+}
+
+.sm-border {
+   /* border: 1px solid red; */
+}
+
+.card-1 {
+   height: 210px;
+   background-color: #424D83 !important;
+}
+
+.card-1:hover {
+   height: 425px;
+   background-color: #798CE7 !important;
+}
+
+.cloud-bg {
+   background: url(image/clouds.svg);
+   background-repeat: no-repeat;
+   background-position: 75% 10px;
+}
+
+.pattern-bg {
+   background: url(image/pattern.svg);
+   background-repeat: no-repeat;
+   background-position: 75% 10px;
+}
+
+.logo {
+   height: 60px;
+   width: 60px;
+   background-color: #313A61 !important;
+}
+
+.card-1:hover>.logo {
+   background-color: #5264BB !important;
+}
+
+.card-1:hover>.box-data {
+   display: block !important;
+}
+
+
+
+
+
+/* footer--part */
+footer {
+   min-height: 245px;
+}
+
+footer * {
+   color: #3E3D5F !important;
+}
+
+.footer>ul>li>a {
+   padding: 35px 20px 15px 20px !important;
+   font-family: "Nunito", sans-serif;
+   font-optical-sizing: auto;
+   font-weight: 400;
+   font-style: normal;
+}
